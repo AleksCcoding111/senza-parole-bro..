@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Builder Pro — Private Pages</title>
+<link rel="icon" type="image/png" href="https://1drv.ms/i/c/619947436ed52d33/IQC3Ptu5aQeNT56oVkomkDLLAZvWVokiPBoOPt65QFajjEk?e=AF691g">
+<link rel="apple-touch-icon" href="https://1drv.ms/i/c/619947436ed52d33/IQC3Ptu5aQeNT56oVkomkDLLAZvWVokiPBoOPt65QFajjEk?e=AF691g">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#0a0a0d;
+  --panel:#121218;
+  --gold:#c8a24a;
+  --text:#f2f2f2;
+  --muted:#9b9b9b;
+  --glow:rgba(200,162,74,.45);
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+  font-family:Inter,sans-serif;
+  background:radial-gradient(ellipse at top,#161625 0%,var(--bg) 65%);
+  color:var(--text);
+  letter-spacing:.2px;
+}
+
+.container{
+  max-width:1080px;
+  margin:auto;
+  padding:120px 20px;
+}
+
+h1,h2{
+  font-family:'Playfair Display',serif;
+  font-weight:600;
+}
+
+h1{
+  font-size:3.2rem;
+  max-width:900px;
+  margin:auto;
+}
+
+h2{
+  font-size:2.2rem;
+}
+
+p{
+  color:var(--muted);
+  max-width:720px;
+  line-height:1.7;
+}
+
+a{color:inherit;text-decoration:none}
+
+/* ---------- LOGO ---------- */
+.logo-wrapper{
+  display:flex;
+  justify-content:center;
+  margin-bottom:45px;
+}
+
+.logo-wrapper img{
+  width:110px;
+  height:110px;
+  border-radius:50%;
+  box-shadow:0 0 45px var(--glow);
+  transition:.4s ease;
+}
+
+.logo-wrapper img:hover{
+  transform:scale(1.04);
+  box-shadow:0 0 65px rgba(200,162,74,.6);
+}
+
+/* ---------- BUTTON ---------- */
+.btn{
+  display:inline-block;
+  padding:15px 38px;
+  border-radius:50px;
+  border:1px solid var(--gold);
+  color:var(--gold);
+  font-weight:500;
+  transition:.3s ease;
+}
+
+.btn:hover{
+  background:var(--gold);
+  color:#000;
+  box-shadow:0 0 35px var(--glow);
+}
+
+/* contact pulse */
+.btn-contact{
+  animation:pulse 3s ease-in-out infinite;
+}
+
+@keyframes pulse{
+  0%{box-shadow:0 0 0 rgba(0,0,0,0)}
+  50%{box-shadow:0 0 40px var(--glow)}
+  100%{box-shadow:0 0 0 rgba(0,0,0,0)}
+}
+
+/* ---------- HERO ---------- */
+.hero{
+  text-align:center;
+}
+
+.hero small{
+  color:var(--gold);
+  letter-spacing:2.5px;
+  font-size:.7rem;
+}
+
+.hero p{
+  margin:30px auto 40px;
+}
+
+.line{
+  width:60px;
+  height:1px;
+  background:var(--gold);
+  margin:40px auto;
+}
+
+/* ---------- GRID ---------- */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:50px;
+  margin-top:70px;
+}
+
+.card{
+  background:var(--panel);
+  padding:45px;
+  border-radius:22px;
+  border:1px solid rgba(255,255,255,.05);
+}
+
+.card h3{
+  color:var(--gold);
+  letter-spacing:1.5px;
+  font-size:.9rem;
+  margin-bottom:14px;
+}
+
+/* ---------- DEMO ---------- */
+.demo-box{
+  background:linear-gradient(160deg,#141424,#0b0b12);
+  border-radius:30px;
+  padding:80px 40px;
+  border:1px solid rgba(255,255,255,.06);
+  text-align:center;
+}
+
+/* ---------- FOOTER ---------- */
+footer{
+  text-align:center;
+  padding:50px 0;
+  font-size:.8rem;
+  color:#666;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="container hero">
+
+  <div class="logo-wrapper">
+    <img src="https://1drv.ms/i/c/619947436ed52d33/IQC3Ptu5aQeNT56oVkomkDLLAZvWVokiPBoOPt65QFajjEk?e=AF691g" alt="Page Builder Pro logo">
+  </div>
+
+  <small>PRIVATE DIGITAL PRESENCE</small>
+  <h1>Luxury bio pages for IG & OF creators who care about image, control and conversion.</h1>
+
+  <p>
+    Private landing pages designed for creators with an established audience.
+    Clean, minimal and purpose-built.
+  </p>
+
+  <div class="line"></div>
+
+  <a href="#demo" class="btn">View sample pages</a>
+</section>
+
+<!-- POSITIONING -->
+<section class="container">
+  <h2>Why this service exists</h2>
+  <p>
+    High-value traffic deserves a controlled environment.
+    Generic bio tools weaken branding and reduce perceived value.
+  </p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>POSITIONING</h3>
+      <p>Your page should feel exclusive, not mass-produced.</p>
+    </div>
+    <div class="card">
+      <h3>CONTROL</h3>
+      <p>Every link, hierarchy and visual choice is intentional.</p>
+    </div>
+    <div class="card">
+      <h3>CONVERSION</h3>
+      <p>Designed to guide fans without pressure or noise.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DEMO -->
+<section id="demo" class="container">
+  <div class="demo-box">
+    <small style="color:var(--gold);letter-spacing:2px;font-size:.7rem">
+      SAMPLE CLIENT PAGES
+    </small>
+    <h2 style="margin:22px 0">Private demo environment</h2>
+    <p>
+      Two visual directions.  
+      Final builds are fully personalized.
+    </p>
+
+    <div style="margin-top:45px;display:flex;gap:22px;justify-content:center;flex-wrap:wrap">
+      <a href="https://softdemo-official.vercel.app/" target="_blank" class="btn">
+        Soft preview
+      </a>
+      <a href="https://demo-ultra-dark.vercel.app/" target="_blank" class="btn">
+        Dark preview
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="container">
+  <h2>Process</h2>
+  <div class="grid">
+    <div class="card"><h3>01</h3><p>Brand direction & assets</p></div>
+    <div class="card"><h3>02</h3><p>Private build within 24h</p></div>
+    <div class="card"><h3>03</h3><p>Refinements until approved</p></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="container" style="text-align:center">
+  <h2>Request access</h2>
+  <p style="margin:25px auto 45px">
+    This service is intentionally limited.<br>
+    Projects are reviewed before acceptance.
+  </p>
+
+  <a
+    href="https://wa.me/393516620869"
+    target="_blank"
+    class="btn btn-contact"
+  >
+    Contact via WhatsApp
+  </a>
+</section>
+
+<footer>
+  © 2025 — Page Builder Pro
+</footer>
+
+</body>
+</html>
